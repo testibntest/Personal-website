@@ -1,0 +1,30 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-style: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+ul, 
+ol {
+    list-style: none;
+}
+/* end css reset */
